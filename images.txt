@@ -7,5 +7,14 @@
 #--platform=linux/arm64 xiaoyaliu/alist
 #--platform=linux/arm64 ubuntu:24.04
 #moby/buildkit:buildx-stable-1
-ubuntu:24.04
-
+# ubuntu:24.04
+cr.weaviate.io/semitechnologies/weaviate:1.28.2
+langgenius/dify-api:0.15.1
+langgenius/dify-api:0.15.1
+langgenius/dify-web:0.15.1
+postgres:15-alpine
+redis:6-alpine
+langgenius/dify-sandbox:0.2.10
+ubuntu/squid:latest
+certbot/certbot
+nginx:latest
