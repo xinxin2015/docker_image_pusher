@@ -6,7 +6,8 @@
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 #--platform=linux/arm64 ubuntu:24.04
---platform=linux/arm64 ubuntu:18.10
+# --platform=linux/arm64 ubuntu:18.10
+--platform=linux/arm64 debian:buster-slim 
 #moby/buildkit:buildx-stable-1
 # ubuntu:24.04
 #cr.weaviate.io/semitechnologies/weaviate:1.28.2
