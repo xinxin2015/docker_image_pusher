@@ -6,6 +6,7 @@
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 #--platform=linux/arm64 ubuntu:24.04
+--platform=linux/arm64 ubuntu:18.10
 #moby/buildkit:buildx-stable-1
 # ubuntu:24.04
 #cr.weaviate.io/semitechnologies/weaviate:1.28.2
@@ -18,4 +19,4 @@
 #ubuntu/squid:latest
 #certbot/certbot
 #nginx:latest
-nodered/node-red:latest
+#nodered/node-red:latest
