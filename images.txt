@@ -1,5 +1,5 @@
 #nginx
-#multiarch/qemu-user-static
+--platform=linux/arm64 multiarch/qemu-user-static
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
@@ -21,5 +21,5 @@
 #langgenius/dify-sandbox:0.2.10
 #ubuntu/squid:latest
 #certbot/certbot
---platform=linux/arm64 nginx:latest
+# --platform=linux/arm64 nginx:latest
 #nodered/node-red:latest
